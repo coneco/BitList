@@ -5,6 +5,17 @@ An bits array implement in pure python.
 No dependency. 
 Support python3+.
 
+Package Installation and Usage
+------------------------------
+
+The package is available on PyPI ( called **py3bitlist** ):
+
+    pip install py3bitlist
+
+The library can be imported in the usual way:
+
+    import bitlist
+
 APIs
 ----
 
