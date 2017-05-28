@@ -1,2 +1,24 @@
-# BitList
+BitList
+=======
+
 An bits array implement in pure python.
+No dependency. 
+Support python3+.
+
+APIs
+----
+
+BitList(length)
+    Return a BitList object with length bits.
+
+BitList.get_bytes_length()
+    Return the number of bytes that consist the Bitlist.
+
+BitList.get_length()
+    Return the number of bits that consist the Bitlist.
+
+BitList.set_bit(position, num)
+    Set the bit in position to num.
+
+BitList.get_bit(position)
+    Get the bit in position.
