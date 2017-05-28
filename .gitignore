@@ -8,6 +8,7 @@ __pycache__/
 *.so
 *~
 
-# due to using tox and pytest
+# due to using vscode tox and pytest
 .tox
 .cache
+.vscode/
