@@ -1,1 +1,1 @@
-from bitlist.bitlist import BitList
+from .bitlist import BitList

@@ -22,6 +22,9 @@ APIs
 BitList(length)
     Return a BitList object with length bits.
 
+Bitlist(bytes)
+    Return a BitList object which is constructed by bytes.
+
 BitList.get_bytes_length()
     Return the number of bytes that consist the Bitlist.
 
