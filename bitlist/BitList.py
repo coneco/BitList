@@ -1,4 +1,6 @@
 class BitList:
+
+    __slots__ = ("bytes_length", "length"， "main_object")
     
     def __init__(self, length):
         if not type(length) is int:
@@ -31,3 +33,6 @@ class BitList:
         bit_pos = position % 8
         target_byte = self.main_object[byte_pos]
         return (target_byte >> bit_pos) & 1
+
+    def __len__(self):
+        return length
