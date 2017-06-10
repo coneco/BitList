@@ -35,4 +35,4 @@ class BitList:
         return (target_byte >> bit_pos) & 1
 
     def __len__(self):
-        return length
+        return self.length
